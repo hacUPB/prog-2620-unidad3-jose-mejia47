@@ -4,7 +4,7 @@
 3.5 kg/km, (Es un promedio realista en altitud de crucero para un bimotor comercial de fuselaje estrecho)
 
 ### Efecto Viento en Contra: 
-Aumento del 15%, El avión necesita generar más empuje (mayor flujo de combustible) para mantener su velocidad respecto al suelo y cumplir con el tiempo de ruta.
+Aumento del 10%, El avión necesita generar más empuje (mayor flujo de combustible) para mantener su velocidad respecto al suelo y cumplir con el tiempo de ruta.
 
 ### Efecto Viento a Favor:
 Reducción del 10%, El viento de cola empuja la aeronave, permitiendo a los motores operar con menor régimen de potencia mientras se mantiene la velocidad de crucero.
@@ -16,18 +16,18 @@ Reducción del 10%, El viento de cola empuja la aeronave, permitiendo a los moto
 15,000 kg.
 
 
-## Inputs
+## Variables de entrada
 | Variable | Tipo de Dato | Descripción |
 | :--- | :--- | :--- |
-| distancia | Numérico (Float) | Los kilómetros a recorrer en el tramo actual. |
-| viento | Texto (String) | Condición del viento: "contra", "favor", "cruzado", "nulo". |
+| distancia | Numérico | Los kilómetros a recorrer en el tramo actual. |
+| viento | Texto | Condición del viento: "contra", "favor", "cruzado", "nulo". |
 
-## Outputs
+## Variables de salidas
 | Variable | Tipo de Dato | Descripción |
 | :--- | :--- | :--- |
-| consumo_tramo | Numérico (Float) | Kilogramos de combustible quemados en el tramo. |
-| combustible_actual | Numérico (Float) | Kilogramos restantes en los tanques tras el tramo. |
-| alerta | Texto (String) | Mensaje de advertencia si se compromete la reserva. |
+| consumo_tramo | Numérico | Kilogramos de combustible quemados en el tramo. |
+| combustible_actual | Numérico | Kilogramos restantes en los tanques tras el tramo. |
+| alerta | Texto | Mensaje de advertencia si se compromete la reserva. |
 
 ## Constantes y Variables de Control
 | Elemento | Valor / Estado | Rol en el Bucle |

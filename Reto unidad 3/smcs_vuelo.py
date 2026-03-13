@@ -5,7 +5,7 @@ def calcular_consumo_tramo(distancia, viento):
     consumo_base = distancia * 3.5
     
     if viento == "contra":
-        consumo_final = consumo_base * 1.15
+        consumo_final = consumo_base * 1.10
     elif viento == "favor":
         consumo_final = consumo_base * 0.90
     else:
