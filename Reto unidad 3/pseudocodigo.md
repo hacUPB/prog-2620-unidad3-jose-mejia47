@@ -1,3 +1,4 @@
+```
 INICIO
 
 DEFINIR combustible_actual = 15000.0
@@ -47,3 +48,4 @@ SI mision_completada ES IGUAL A VERDADERO ENTONCES:
 FIN SI
 
 FIN
+```
